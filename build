@@ -2,6 +2,8 @@
 cd /tmp/rom
 
 . build/envsetup.sh
+lunch
+brunch j5xnlte
 export CCACHE_DIR=/tmp/ccache  ##use additional flags if you need(optional)
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
@@ -11,7 +13,7 @@ ccache -z
 
 
 up(){
-	curl --upload-file $1 https://bashupload.com
+	curl --upload-file $1 https://transfer.sh
 }
 
 make_metalava(){
@@ -22,7 +24,7 @@ make_metalava(){
 
 make_rom(){
 	mka bacon -j26
-        zip=$(up out/target/product/TBX304/*zip) ##edit this change from miatoll---> /<your device codename>
+        zip=$(up out/target/product/j5xnlte/*zip) ##edit this change from miatoll---> /<your device codename>
 	echo " "
 	echo "$zip"
 }
