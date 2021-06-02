@@ -5,9 +5,9 @@ cd /tmp/rom
 # Repo init command, that -device,-mips,-darwin,-notdefault part will save you more time and storage to sync, add more according to your rom and choice. Optimization is welcomed! Let's make it quit, and with depth=1 so that no unnecessary things.
 repo init --depth 1 -u https://github.com/crdroidandroid/android -b 7.1 -g default,-device,-mips,-darwin,-notdefault
 ### Sync source with -q, no need unnecessary messages, you can remove -q if want! try with -j30 first, if fails, it will try again with -j8
-git clone https://github.com/BlackAxiom-lgtm/android_kernel_samsung_msm8916 -b cm-14.1-testing kernel/samsung/j5xnlte
-git clone https://github.com/j5xnlte/android_device device/samsung/j5xnlte
-git clone https://github.com/j5xnlte/android_vendor vendor/samsung/j5xnlte
+git clone https://github.com/Raddagast/android_device_lenovo_TBX304 device/lenovo/TBX304
+git clone https://github.com/Raddagast/android_device_lenovo_tb-common device/lenovo/
+git clone https://github.com/lenovo-devs/proprietary_vendor_lenovo -b lineage-16.0-msm8937 vendor/lenovo
 
 repo sync 
 git clone 
