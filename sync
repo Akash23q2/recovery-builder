@@ -7,8 +7,7 @@ git clone https://github.com/Raddagast/android_device_lenovo_TBX304 device/lenov
 git clone https://github.com/Raddagast/android_device_lenovo_tb-common device/lenovo/
 git clone https://github.com/lenovo-devs/proprietary_vendor_lenovo -b lineage-16.0-msm8937 vendor/lenovo
 
-repo sync j8
-git clone 
+repo sync
 ls
 
 
