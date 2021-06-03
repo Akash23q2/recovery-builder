@@ -2,8 +2,7 @@
 cd /tmp/rom
 
 . build/envsetup.sh
-lunch
-brunch TBX304
+lunch lineage_merlin-userdebug
 export CCACHE_DIR=/tmp/ccache  ##use additional flags if you need(optional)
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
@@ -23,8 +22,8 @@ make_metalava(){
 }
 
 make_rom(){
-	mka bacon -j26
-        zip=$(up out/target/product/TBX304/*zip)	echo " "
+	mka bacon -j8
+        zip=$(up out/target/product/merlin/*zip)	echo " "
 	echo "$zip"
 }
 
