@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt install wget
 
 mkdir -p /tmp/rom # Where to sync source
 cd /tmp/rom
@@ -20,7 +21,13 @@ git clone --depth=1 --single-branch https://github.com/Redmi-MT6768/android_vend
 git clone --depth=1 --single-branch https://github.com/Redmi-MT6768/vendor_mediatek-opensource.git vendor/mediatek/opensource
 git clone --depth=1 --single-branch https://github.com/PixelExperience/device_mediatek_sepolicy device/mediatek/sepolicy
 git clone --depth=1 --single-branch https://github.com/PixelExperience/vendor_mediatek_interfaces vendor/mediatek/interfaces
-
+git clone --depth=1 --single-branch https://github.com/sarveshrulz/android_vendor_aeonax_ANXCamera.git -b v185 vendor/aeonax/ANXCamera
+##TEMPORARY
+cd device/xiaomi/merlin
+echo 'TARGET_USES_FACE_UNLOCK := true' >> lineage_merlin.mk
+echo '-include vendor/aeonax/ANXCamera/BoardConfigAnx.mk' >> BoardConfig.mk
+echo '$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)' >> lineage_merlin.mk
+cd -
 ls
 
 
