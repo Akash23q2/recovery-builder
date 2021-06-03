@@ -16,7 +16,7 @@ up(){
 	curl https://transfer.sh -T $1
 }
 
-up lineage-ccache.tar.gz
+up ccache-example.tar.gz
 
 # mkdir -p ~/.config/rclone
 # echo "$rclone_config" > ~/.config/rclone/rclone.conf # Write rclone config found from env variable, so that cloud storage can be used to upload ccache
