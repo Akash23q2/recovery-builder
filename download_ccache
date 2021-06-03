@@ -1,6 +1,6 @@
 #!/bin/bash
 
-url=http://transfer.sh/1cZAfEU/ccache-example.tar.gz
+url=https://cheems.mirrorbomt.workers.dev/0:/lineage-ccache.tar.gz
 
 cd /tmp # Where to download cccahe
 time aria2c $url -x16 -s50
