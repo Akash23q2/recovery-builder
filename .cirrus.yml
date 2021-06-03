@@ -7,14 +7,12 @@ task:
     container:
       image: mrkhan007/aosp:latest
       cpu: 8
-    download_ccache_script:
-      - bash download_ccache
       memory: 30G
-    sync_script:
-      - bash sync
-    build_script:
+      download_ccache_script:
+      - bash download_ccache
+      build_script:
       - bash build
-    upload_ccache_script:
+      upload_ccache_script:
       - bash upload_ccache
 
 
