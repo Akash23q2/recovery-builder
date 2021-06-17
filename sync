@@ -12,5 +12,6 @@ cd ~/OrangeFox_10/sync
 ./get_fox_10.sh ~/OrangeFox_10/fox_10.0
 pwd
 ls
+cd ~/OrangeFox_10/fox_10.0
 ##delete these lines, and replace with your own lines of device sauce
 git clone https://github.com/SHRP-Devices/device_xiaomi_shiva -b shrp device/xiaomi/shiva
