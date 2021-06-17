@@ -6,5 +6,12 @@ export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export LC_ALL="C"
 lunch omni_shiva-eng
 mka recoveryimage
+sudo su
 curl --upload-file /home/ci/OrangeFox_10/fox_10.0/out/target/product/shiva/OrangeFox-Unofficial-shiva.zip https://transfer.sh
+curl --upload-file home/ci/out/target/product/shiva/OrangeFox-Unofficial-shiva.zip https://transfer.sh
+cd ~/home/ci/OrangeFox_10/fox_10.0
+curl --upload-file /out/target/product/shiva/OrangeFox-Unofficial-shiva.zip https://transfer.sh
+curl --upload-file ./out/target/product/shiva/OrangeFox-Unofficial-shiva.zip https://transfer.sh
+curl --upload-file out/target/product/shiva/OrangeFox-Unofficial-shiva.zip https://transfer.sh
+
 echo "/nUploaded All files successfully!"
