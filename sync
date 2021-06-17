@@ -13,5 +13,4 @@ cd ~/OrangeFox_10/sync
 pwd
 ls
 ##delete these lines, and replace with your own lines of device sauce
-git clone https://github.com/Redmi-MT6768/omni_device_xiaomi_shiva device/xiaomi/shiva
-
+git clone https://github.com/SHRP-Devices/device_xiaomi_shiva -b shrp device/xiaomi/shiva
