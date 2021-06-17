@@ -1,5 +1,6 @@
 #!/bin/bash
 cd ~/OrangeFox_10
+cd ~/OrangeFox_10/sync
 rm -rf .repo
 source build/envsetup.sh
 lunch omni_shiva-eng
