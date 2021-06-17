@@ -13,4 +13,4 @@ pwd
 ls
 cd ~/OrangeFox
 ##delete these lines, and replace with your own lines of device sauce
-git clone https://github.com/PitchBlackRecoveryProject/android_device_ASUS_X00P-pbrp device/asus/X00P
+git clone https://github.com/PitchBlackRecoveryProject/android_device_ASUS_X00P-pbrp device/Asus/X00P
