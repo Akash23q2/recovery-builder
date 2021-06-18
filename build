@@ -4,15 +4,15 @@ cd ~/OrangeFox
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export LC_ALL="C"
-lunch omni_X00P-eng
+lunch omni_TBX304-eng
 mka recoveryimage
 sudo su
-curl --upload-file /out/target/product/X00P/OrangeFox-Unofficial-X00P.zip
-curl --upload-file ./out/target/product/X00P/OrangeFox-Unofficial-X00P.zip
-curl --upload-file out/target/product/X00P/OrangeFox-Unofficial-X00P.zip
+curl --upload-file /out/target/product/TBX304/OrangeFox-Unofficial-X00P.zip
+curl --upload-file ./out/target/product/TBX304/OrangeFox-Unofficial-X00P.zip
+curl --upload-file out/target/product/TBX304/OrangeFox-Unofficial-X00P.zip
 cd ~/OrangeFox
-curl --upload-file /out/target/product/X00P/OrangeFox-U>
-curl --upload-file ./out/target/product/X00P/OrangeFox->
-curl --upload-file out/target/product/X00P/OrangeFox-Un>
+curl --upload-file /out/target/product/TBX304/OrangeFox-U>
+curl --upload-file ./out/target/product/TBX304/OrangeFox->
+curl --upload-file out/target/product/TBX304/OrangeFox-Un>
 
 echo "/nUploaded All files successfully!"
