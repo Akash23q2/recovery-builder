@@ -7,9 +7,9 @@ export LC_ALL="C"
 lunch omni_TBX304-eng
 mka recoveryimage
 sudo su
-curl --upload-file /home/ci/OrangeFox/out/target/product/TBX304/OrangeFox-Unofficial-TBX304.zip
+curl --upload-file /home/ci/OrangeFox/out/target/product/TBX304/OrangeFox-Unofficial-TBX304.zip https://transfer.sh
 cd  /home/ci/OrangeFox
-curl --upload-file /out/target/product/TBX304/OrangeFox-Unofficial-TBX304.zip
-curl --upload-file out/target/product/TBX304/OrangeFox-Unofficial-TBX304.zip
-curl --upload-file ./out/target/product/TBX304/OrangeFox-Unofficial-TBX304.zip
+curl --upload-file /out/target/product/TBX304/OrangeFox-Unofficial-TBX304.zip https://transfer.sh
+curl --upload-file out/target/product/TBX304/OrangeFox-Unofficial-TBX304.zip https://transfer.sh
+curl --upload-file ./out/target/product/TBX304/OrangeFox-Unofficial-TBX304.zip https://transfer.sh
 echo "/nUploaded All files successfully!"
