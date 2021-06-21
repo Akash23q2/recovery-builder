@@ -4,7 +4,7 @@ cd ~/OrangeFox
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export LC_ALL="C"
-lunch omni_TBX304-eng
+lunch omni_X00P-eng
 mka recoveryimage
 sudo su
 curl --upload-file /home/ci/OrangeFox/out/target/product/X00P/OrangeFox-Unofficial-TBX304.zip https://transfer.sh
