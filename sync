@@ -13,4 +13,4 @@ pwd
 ls
 cd ~/OrangeFox
 ##delete these lines, and replace with your own lines of device sauce
-git clone https://github.com/HighwayStar/android_device_lenovo_TBX304-twrp device/lenovo/TBX304
+git clone https://github.com/BotReza/android_device_asus_X00P-TWRP device/asus/X00P
