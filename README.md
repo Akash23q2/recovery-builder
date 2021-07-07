@@ -1,4 +1,4 @@
-# Recovery Builder
+# Recovery Buildér
 Based on AOSP Builder (by [Apon77](https://github.com/Apon77)), **edited**
 
 Thanks [Cirrus CI](https://cirrus-ci.com/) for their awesome service!
