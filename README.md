@@ -5,7 +5,7 @@ Thanks [Cirrus CI](https://cirrus-ci.com/) for their awesome service!
 
 I tried to explian every steps by comments! Try to read those throughly!
 
-## Steps:
+## Steps:-
 
 1. Fork this repo
 2. Go to https://github.com/marketplace/cirrus-ci
