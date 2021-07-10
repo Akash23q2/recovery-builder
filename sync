@@ -1,5 +1,6 @@
 #!/bin/bash
 cd ~
+mkdir device
 sudo apt install git aria2 -y
 git clone https://gitlab.com/OrangeFox/misc/scripts
 cd scripts
@@ -14,4 +15,11 @@ pwd
 ls
 cd ~/OrangeFox_10/fox_10.0
 ##delete these lines, and replace with your own lines of device sauce
-git clone https://github.com/Kingler04ak/twrp_xiaomi_merlin device/xiaomi/merlin
+git clone https://dumps.tadiphone.dev/dumps/redmi/merlinnfc.git keks
+cd keks/twrp-device-tree
+cp xiaomi/ /home/ci/device/
+cd /home/ci/device
+mkdir device
+mv xiaomi /device
+mv xiaomi merlin
+
