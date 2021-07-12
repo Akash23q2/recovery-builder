@@ -7,6 +7,7 @@ git clone https://github.com/lenovo-devs/android_kernel_lenovo_msm8953 -b lineag
 git clone https://github.com/lenovo-devs/proprietary_vendor_lenovo -b lineage-16.0-msm8937 vendor/lenovo/
 repo init -u git://github.com/LineageOS/android.git -b lineage-15.0
 repo sync
+
 . build/envsetup.sh
-lunch lineage lineage_TBX304-userdebug
+lunch lineage_TBX304-userdebug
 mka bacon
