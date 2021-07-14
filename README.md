@@ -9,7 +9,7 @@ I tried to explian every steps by comments! Try to read those throughly!
 
 1. Fork this repo
 2. Go to https://github.com/marketplace/cirrus-ci
-3. Pricing and setup > Public Repositories > Install it for free
+3. Pricing and setup > Public Repositories >g Install it for free
 4. In next page click Complete order and begin installation
 5. In next page select All repositories or only selected repository > Install
 6. In next page give password and Confirm password
