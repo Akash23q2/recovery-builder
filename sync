@@ -39,4 +39,4 @@ pwd
 ls
 cd ~/OrangeFox_10/fox_10.0
 ##delete these lines, and replace with your own lines of device sauce
-git clone https://github.com/Redmi-MT6768/omni_device_xiaomi_merlin -b android-11.0 device/xiaomi/merlin
+git clone https://github.com/SHRP-Devices/device_xiaomi_merlin device/xiaomi/merlin
