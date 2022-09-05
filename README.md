@@ -1,5 +1,6 @@
 # Recovery Builder
-
+Helps you build custom recovery for your android device without a server and waste of time and resource
+•By Akash
 ## Steps:
 
 1. Fork this repo
